@@ -205,8 +205,8 @@ header {
 }
 
 .logo img {
-  width: 36px;
-  height: 36px;
+  width: auto;
+  height: 38px;
 }
 
 .nav {
@@ -246,6 +246,7 @@ header {
     white-space: nowrap; /* 🔥 prevents breaking */
   }
 }
+
 
 
 
