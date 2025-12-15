@@ -52,7 +52,7 @@ nav a:hover{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: #222;
+    background: lightgrey;
     color: white;
     text-align: center;
 }
@@ -205,8 +205,8 @@ header {
 }
 
 .logo img {
-  width: auto;
-  height: 38px;
+  width: 90px;
+  height: 90px;
 }
 
 .nav {
@@ -246,6 +246,7 @@ header {
     white-space: nowrap; /* 🔥 prevents breaking */
   }
 }
+
 
 
 
