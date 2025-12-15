@@ -33,7 +33,7 @@ header {
 }
 
 .logo img {
-  height: 46px;          /* ✅ BEST size for desktop */
+  height: 48px;          /* ✅ BEST size for desktop */
   width: auto;
   border-radius: 5px;
   border: 2px solid #555;
@@ -47,7 +47,7 @@ header {
 }
 
 .logo-text {
-  font-size: 18px;
+  font-size: 20px;
   color: #fff;
 }
 
@@ -90,7 +90,7 @@ nav a:hover {
 .btn {
   margin-top: 20px;
   padding: 10px 25px;
-  background: #00e6c3;
+  background: skyblue;
   color: #000;
   text-decoration: none;
   font-weight: bold;
@@ -99,7 +99,7 @@ nav a:hover {
 }
 
 .btn:hover{
-  background:#00bfa6;
+  background:#fff;
   transform: transLateY(-2px);
 }
 
@@ -187,7 +187,7 @@ footer {
   }
 
   .logo img {
-    height: 36px;     /* ✅ best mobile logo size */
+    height: 44px;     /* ✅ best mobile logo size */
   }
 
   .logo-text {
@@ -209,4 +209,5 @@ footer {
     padding: 30px 15px;
   }
 }
+
 
