@@ -187,7 +187,7 @@ footer {
   }
 
   .logo img {
-    height: 44px;     /* ✅ best mobile logo size */
+    height: 46px;     /* ✅ best mobile logo size */
   }
 
   .logo-text {
@@ -209,5 +209,6 @@ footer {
     padding: 30px 15px;
   }
 }
+
 
 
