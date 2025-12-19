@@ -198,33 +198,7 @@ nav a:hover {
 
 .project-card a:hover {
   text-decoration: underline;
-} 
-
-/*
-.project-links {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-top: 10px;
 }
-
-.project-links span {
-  color: #777;
-  font-size: 14px;
-}
-
-.project-links a {
-  color: #1abc9c;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.project-links a:hover {
-  text-decoration: underline;
-}
-
-*/
-
 /* ---------- FOOTER ---------- */
 footer {
   background: #111;
@@ -263,6 +237,7 @@ footer {
     padding: 30px 15px;
   }
 }
+
 
 
 
