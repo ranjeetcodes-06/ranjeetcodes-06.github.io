@@ -207,14 +207,15 @@ nav a:hover {
   margin-top: 10px;
 }
 
-.project-links span {
-  color: #777;
+.project-links .tech {
   font-size: 14px;
+  color: #777;
 }
 
 .project-links a {
-  color: #1abc9c;
+  font-size: 14px;
   font-weight: 600;
+  color: #1abc9c;
   text-decoration: none;
 }
 
@@ -260,6 +261,7 @@ footer {
     padding: 30px 15px;
   }
 }
+
 
 
 
