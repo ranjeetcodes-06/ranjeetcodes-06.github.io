@@ -198,6 +198,48 @@ nav a:hover {
 
 .project-card a:hover {
   text-decoration: underline;
+} 
+
+.project-links {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-links:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.project-links h3 {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+.project-links p {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+.tech {
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #00c9a7;
+  margin-bottom: 12px;
+}
+
+.project-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #00c9a7;
+  font-weight: 600;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
 }
 
 /* ---------- FOOTER ---------- */
@@ -237,30 +279,6 @@ footer {
     min-height: 50vh;
     padding: 30px 15px;
   }
-}
-
-
-.project-links {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-top: 10px;
-}
-
-.project-links .tech {
-  color: #777;
-  font-size: 14px;
-}
-
-.project-links a {
-  color: #1abc9c;
-  font-size: 14px;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.project-links a:hover {
-  text-decoration: underline;
 }
 
 
