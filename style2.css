@@ -200,29 +200,6 @@ nav a:hover {
   text-decoration: underline;
 }
 
-.project-links {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-  margin-top: 10px;
-}
-
-.project-links .tech {
-  font-size: 14px;
-  color: #777;
-}
-
-.project-links a {
-  font-size: 14px;
-  font-weight: 600;
-  color: #1abc9c;
-  text-decoration: none;
-}
-
-.project-links a:hover {
-  text-decoration: underline;
-}
-
 /* ---------- FOOTER ---------- */
 footer {
   background: #111;
@@ -262,6 +239,29 @@ footer {
   }
 }
 
+
+.project-links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+}
+
+.project-links .tech {
+  color: #777;
+  font-size: 14px;
+}
+
+.project-links a {
+  color: #1abc9c;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
 
 
 
