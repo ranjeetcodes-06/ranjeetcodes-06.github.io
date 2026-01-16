@@ -181,14 +181,6 @@ nav a:hover {
   color: #555;
   margin-bottom: 15px;
 }
-
-.tech {
-  display: inline-block;
-  font-size: 0.8rem;
-  color: #00c9a7;
-  margin-bottom: 12px;
-}
-
 .project-card a {
   display: inline-block;
   text-decoration: none;
@@ -199,6 +191,38 @@ nav a:hover {
 .project-card a:hover {
   text-decoration: underline;
 }
+
+.project-tags {
+  display: flex;
+  gap: 12px;              /* space between tags */
+  margin-top: 12px;
+  flex-wrap: nowrap; 
+  overflow-x: auto;       /* wraps nicely on small screens */
+}
+
+.tag {
+  background-color: #ebf6ec;
+  color: #236627;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  white-space: nowrap;    /* keeps text in one line */
+  text-decoration: none;
+}
+
+.tag.link:hover {
+  background-color: rgb(35, 35, 225);
+  color:#fff;
+  text-decoration: none;
+}
+
+.tag.link{
+  color: #ffffff;
+  background-color: #1dd623;
+ 
+}
+
+
 /* ---------- FOOTER ---------- */
 footer {
   background: #111;
@@ -237,6 +261,7 @@ footer {
     padding: 30px 15px;
   }
 }
+
 
 
 
