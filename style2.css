@@ -135,7 +135,7 @@ nav a:hover {
   padding: 15px 30px;
   margin: 10px;
   border-radius: 5px;
-  font-weight: bold;
+  font-weight: normal;
 }
 
 /* ---------- PROJECTS ---------- */
@@ -211,14 +211,14 @@ nav a:hover {
 }
 
 .tag.link:hover {
-  background-color: rgb(35, 35, 225);
+  background-color:#1D4ED8;
   color:#fff;
   text-decoration: none;
 }
 
 .tag.link{
   color: #ffffff;
-  background-color: #1dd623;
+  background-color: #3B82F6;
  
 }
 
@@ -261,6 +261,7 @@ footer {
     padding: 30px 15px;
   }
 }
+
 
 
 
