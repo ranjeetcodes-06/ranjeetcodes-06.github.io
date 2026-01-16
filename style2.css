@@ -198,6 +198,7 @@ nav a:hover {
   margin-top: 12px;
   flex-wrap: nowrap; 
   overflow-x: auto;       /* wraps nicely on small screens */
+  scrollbar-width:none;
 }
 
 .tag {
@@ -261,6 +262,7 @@ footer {
     padding: 30px 15px;
   }
 }
+
 
 
 
